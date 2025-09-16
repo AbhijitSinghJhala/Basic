@@ -1,0 +1,668 @@
+function - to perform specific task
+
+2 types 
+1. user defined - we will create
+2. in built - Python
+
+print()
+input()
+format()
+upper()
+lower()
+startswith()
+extend()
+
+
+function - name , parameter , return type
+
+name - print
+parameter -
+return - output
+
+print(sep,end)
+
+sep = seperator
+end = endswith
+
+comments ---> Non exevcutable part of program 
+             for documentation purpose
+
+
+input ---> to accept input from User
+
+----------------------------------------------------------
+
+26th Aug-->
+
+
+installation - Python
+       vs code - extension Python
+
+
+   print
+   input  
+    function - it is set stnt/instruction for specific test
+
+    print 
+input
+format
+split
+
+in-built and User defined 
+1. in build- already thr print ,input,split
+2. user defined - user created function
+
+print("HEllo")
+print("hellow Abhi ")
+print("this is python class")
+
+parameter print function
+sep, end
+
+---> data type - which kind of data is there it is specified by data type 
+---> variable - it is store values
+
+
+Example of c/c++
+int c_no =7897456
+string name="Abhi"
+
+Python
+c_no=79859;
+name="Abhi"
+
+variable c_no,name
+values = 979865565 , "Abhi"
+
+python data types
+
+numeric , string ,seq ,map
+
+
+lab task = take 3 different variable of float,int, string,and print type
+
+input = to accept input from user
+
+input function return string
+
+program
+
+Enter number 1 = 20
+Enter number 2 = 30
+
+addition = 50
+
+type conversion - str to int
+int()
+float
+
+practise - print with end - sep
+input
+type
+conversion
+
+
+
+
+
+
+
+type--->
+
+
+----------------------------
+
+28th Aug.--->
+
+
+python features
+PEP
+operator
+
+escape sequences --->
+
+newline
+
+\n
+\t tab
+\b backspace
+name = "Tops Technologies"
+print(name)
+
+Tops Technologies
+
+Tops "Technologies"
+
+
+1. name= "Tops\tTechnologies"
+2. name= "tops\bTechnologies"
+3. print("tops","Technologies",sep="\n")
+4. print("tops","technologies",sep="\t")
+5. print("tops technologies",end="\n")
+6. print("tops technologies",end="\t")
+
+
+block of stmt 
+{
+}
+
+indentation
+block - indentation
+
+naming convenstion - rules for naming   
+
+1st_
+tpl_
+city
+num1
+num2
+float_num
+a=34.5554623
+class Employee
+Class shape
+Class car 
+
+print()
+
+comment - documentation purpose
+        non executable part
+        single line
+        multiple line
+        
+
+reserve work / keyword
+
+predefined word
+
+if , True , for
+
+Type conversion = convert from one data type to anothor
+
+number = input("Enter number ")
+print(type(number)) - class str
+
+# to convert number into float
+num2 = float(number)
+
+list
+set
+
+______
+split
+formate
+---------------
+
+
+2nd sep.---->
+
+Type conversion
+predefined word
+
+Block of stmt
+comments
+naming convesions
+escape sequences
+
+PEP 8
+
+Rules / syntax
+block stmt
+for
+    stmt
+
+variables name
+- digits
+-alphabets-
+-case sensitive
+
+
+Operators
+
+    1. Arithmatic
+    2. logical
+    3. assignment
+    4. identity
+    5. membership
+    6. relational
+
+
+1. Arithmatic
+    calculation + , - , * , / ,
+    //(floor division) , **(exponent) , %(modules / reminder )
+    10/2 = 5
+    10/3 = 3.31
+    10%3 = 1 
+    10%2 = 0
+
+    5**2 = 25
+    5**3 = 125
+
+
+
+LAb task
+"HEllow" * 5
+
+Format - ( .format )
+F
+
+addition of 100 and 10 is  110
+
+palceholder - {}
+
+assignment - value assign 
+a=5
+a=100
+number1 = 90
+
+--> number1 = 90+10
+
+---> number1 = number1+10
+
+--> number1 + = 10
+
+LAb task - %= , //= , **/
+
+--> comparison operator 
+
+>
+<
+>=
+<=
+==
+!=
+
+
+logical
+
+and or not
+
+-------------->
+
+4th sep ---->
+
+operator-
+    Arithmatic - +,-,/,*,//,**,%
+    Assignment - +=,*=,-=,/=
+    Comparisonc - ==,<=,>=,!=
+    Logical and or not (compound)
+
+    num=120 , num2=60
+    num>100 and num>num2 - both condition must be True
+    120>100 and 120>60 - True
+
+    num=50 , num2=10
+    50>100 and 50>10 - False
+
+    num>100 or num>num2 - either of conditionis true it return true
+    120>100 or 120>60 - True 
+
+    num=50, num2 = 10
+    50>100 or 50>10 - True
+
+    membership Operator
+        in not it 
+
+    identity is nested list 
+    list1 = [1,2,3,[2,3,4]]
+    list2 =[2,3,4]
+
+    list with list type / value
+        == value 
+
+
+conditional stmts ? 
+options / alternatives 
+
+if stmt
+if-elif
+if-elif-else
+
+if condition:
+    block
+
+number=1
+if number>0:
+    print("No is positive")
+
+
+Multiple conditions
+age 0-2 infant
+3-18 minor
+19-50 adult
+50 > senior
+
+lab task ----
+    user accept marks
+    marks > 70 Grade "A"
+    marks 69 - 50 B 
+    marks 49 - 35 C 
+        Fail
+
+
+
+____________
+ 
+6th sep
+
+match case multiple conditions
+if condition
+elif 
+elif
+elif
+  
+match exp:
+    case : stmt
+
+---> nested if 
+condition within another condition
+
+if condition:
+    if condition:
+
+
+
+age must be greater then 18
+    weight 55 more
+
+
+output - secnario1 - can not donate blood due to underweight
+
+senario 2 - can not donate blood due to  age
+
+loops
+
+iteration / repeation
+
+2 for
+while
+
+for var in range/seq
+    var
+---- range(start,end,incre/dec.)
+    start=0
+    end=
+    incr=1
+
+to print 5 times hello
+
+for abhijit in range(5):
+    PRINT("Hello")
+
+print even 
+start value and end value ask from user
+
+sum of number 1-10
+1+2+3+4...10= 55
+
+sum = 0
+for i in range(1,11):
+    sum = sum+i 
+
+1st iteration sum = 0+1 =1
+2nd iteration sum = 1+2 = 3
+3rd iteration sum = 3+3 =6
+4th iteration sum = 6+4 =10
+
+user input =5
+1*2*3*4*5 = 120
+
+lab task 
+start and end range ask from user and sum_of_even and sum_of_odd numbers don't use increment/decrement
+
+start 100
+end 150
+
+sum_of_even=100+102+104+106+....
+odd = 101+103+...149
+
+----------->
+
+9th sep
+  
+loops / 
+        repetation
+
+1. for 
+2. while
+
+1-10 print
+
+for i in range(1,11):
+    print(i)
+
+num=5
+
+5*1=5
+5*2=10
+5*3=15
+....
+
+5*10=50
+
+
+lst_no=[1,23,34,55]
+
+fer i in range(1,11):
+    sum+=i 
+
+for i in lst_no:
+    sum+=i 
+
+lab task : add elemnts of list
+
+while loops?
+        while we are not known no of interation in advance at that time we have to use while loop 
+
+lab task: factorial num - while loops
+
+        multiplication table using while 
+        multiplication table using while - in revese
+
+prime no ? no is divisible by 1 and itself
+
+23
+11
+7
+
+prime with while loop
+
+find prime number from 1-100 - any loop
+
+find no of digits - 34324 = 5
+9078 = 4
+
+logic
+
+34324/10 = 3432
+4 ? 34324%10= 4
+
+____________
+
+34324 % 10 = 4 
+34324/10 = 3432
+
+3432 % 10 = 2
+3432/10 = 343
+
+343%10 
+
+
+-------------------->
+11th sep......
+
+
+armstrong no :- digits sum and multiplication same perfect no 
+
+    153 = 3
+
+    1^3 + 5^3 + 3^3 = 1+125+27 = 153
+
+2331 = 4
+2^4 + 3^4 + 3^4 + 1^4 = 16+81+81+1 = 
+
+
+            condition
+1. find no of digits
+2. no ko digits se 
+3. digits power **
+4. sum 
+5. condition sum ==num v 
+
+lab task : palindrome num and reversde
+
+num = 1234
+rev = 4321 not
+
+num = 1221
+rev = 1221 plindrome 
+
+
+
+----------------------------->
+
+13 sep.----  >
+ 
+
+## Fibonacci series--
+
+o 1 1 2 3 5 8 13 21......# pichle 2 no. ka sum
+
+next
+sum
+previous
+
+sum = next + pre.
+sum = nxt 
+
+1 iteration prev = 0
+			next=1
+			sum=prev+next
+
+2 iteration 
+			prev =next (1)
+			next =sum (1)
+			sum = prev+next  (2)
+
+3 iteration 
+		prev = next (1)
+		next =sum (2)
+		sum  = prev+next (3)
+
+4 iteration 
+		prev = next (2)
+		next = sum(3)
+		sum = prev+sum (5)
+
+	
+
+
+sum  
+next
+pre
+
+lab task -- swap numbers 
+
+num1 = 12
+num2 =22
+
+num2 =12
+num1=22
+
+
+temp = num1   ( temp =12
+num1=num2    ( num1 = 22)
+num2=temp    (num2 = 12)
+
+num1 , num2 = num2 , num1
+
+*
+*  *
+*  *  *
+*  *  *  *
+
+
+i=0 ,j=0 *
+i=0 
+
+for i in range(5):
+   print("*")
+
+i=0 j=0*
+i=1 j=0 j=1 *  *
+i=2 j=0 j=1 j =2 *  *  *
+*  *  *  *
+
+
+
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+1
+2 2
+3 3 3
+4 4 4 4
+
+
+Lab task * * * * *
+         * * * *
+         * * *
+         * *
+         *
+
+
+______________________________________________________________________
+
+16/09/2025
+
+1
+3	3
+5	5	5
+7	7	7	7
+9	9	9	9	9
+
+break  - break loop 
+       
+continue - perticular condition pe current iteration skip and will continue with next iteration
+
+pass - nothing /placeholder
+
+
+String ---- sequence of characters , name , 
+"Enter your name "
+"Dharmihstha"
+"123456" - string
+123456 - number
+'Vishwaraj' - string
+'Visharaj909090' ---string
+
+ in built functions ---- () - already library ,we have to use /call 
+keywords - break , continue,if,elif,for , while ,pass 
+
+lower
+upper
+title
+capitalize
+
+
+access method
+string variable.method
+
+
+print  
+
+
+lab task --- accept 5 string user and
+			perform all 4 operations/methods
+			maintain ormatting
+
+_______________________________________________________________________________
+
+18-sep.---->
+
+Menu driven program
+armstrong
+number gussing - random
