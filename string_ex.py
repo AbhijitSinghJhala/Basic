@@ -10,12 +10,12 @@
 # ##
 
 # s3= c_name.title()
-# print(s3)
+# print("Title ",s3)
 
 # ##
 
 # s4= c_name.capitalize() 
-# print(s4)
+# print("Capitalize ",s4)
 
 #_____________________________________________________________________
 

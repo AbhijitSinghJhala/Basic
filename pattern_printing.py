@@ -94,9 +94,20 @@
 #_________________________________________________________
 
 num = int(input("Enter number "))
-cnt=1
+count=1
 for i in range (1,num+1):
     for j  in range (1,i+1):
-            print(cnt,end=" ")
+            print(count,end=" ")
     print()
-    cnt+=2
+    count+=2 
+
+#_________________________________________________________
+
+# num = int(input("Enter number "))
+# cnt=1                                                                 
+# for i in range (1,num+1):
+#     for j  in range (1,i+1):
+#             print(cnt,end=" ")
+#             cnt+=2               #cmt = cmt + 2 
+#     print()
+                      
