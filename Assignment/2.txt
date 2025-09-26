@@ -1,0 +1,16 @@
+2) What is programing?
+Ans:-
+    Programming is the process of writing instructions that a computer can understand and execute.
+
+These instructions are written in a programming language (like Python, Java, C, etc.) 
+and tell the computer what to do and how to do it.
+
+In simple terms:
+   Programming is like giving step-by-step directions to a computer so it can solve problems, 
+   perform tasks, or create applications.
+
+For example:
+
+    If you want a computer to add two numbers, you write a small program for it.
+    If you want a mobile app or a game, programmers write thousands (or millions) of such instructions.
+

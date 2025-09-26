@@ -1,0 +1,24 @@
+1) What are the types of Applications? 
+Ans:-
+    Applications (short: Apps) are software programs that are designed to perform specific tasks for users. 
+    They can be classified into several types based on usage, platform, and purpose. Here are the main types:
+
+1. Based on Platform
+
+    Desktop Applications – Run on computers (e.g., MS Word, Photoshop).
+    Mobile Applications – Run on smartphones/tablets (e.g., WhatsApp, Instagram).
+    Web Applications – Run inside browsers (e.g., Gmail, Facebook).
+    Hybrid Applications – Work on both mobile & web (e.g., Twitter, Spotify app).
+
+2. Based on Purpose
+
+    System Software Applications – Help in managing system resources (e.g., Antivirus, File Manager).
+    Business Applications – For managing work (e.g., ERP, CRM, Microsoft Office).
+    Educational Applications – Learning apps (e.g., Duolingo, Byju’s).
+    Entertainment Applications – For fun (e.g., Netflix, Games, YouTube).
+    Utility Applications – Perform specific small tasks (e.g., Calculator, Notepad, Calendar).
+
+3. Based on Availability
+
+    Open Source Applications – Free to use and modify (e.g., VLC, GIMP).
+    Closed Source / Proprietary Applications – Licensed, paid (e.g., MS Office, Photoshop).

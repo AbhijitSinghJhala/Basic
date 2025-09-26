@@ -1,0 +1,27 @@
+3) What is Python? 
+Ans:-
+    Python is a high-level, interpreted programming language that is widely 
+    used because it is simple, powerful, and easy to learn.
+
+
+🔹 Key Features of Python:
+
+1. Easy to Read & Write – Looks almost like English, beginner-friendly.
+2. Interpreted – Runs line by line (no need to compile first).
+3. Cross-Platform – Works on Windows, macOS, Linux, etc.
+4. Open Source – Free to use and has a huge community.
+5. Versatile – Can be used for almost anything:
+  >  Web development (Django, Flask)
+  >  Data science & Machine Learning (Pandas, TensorFlow)
+  >  Automation (scripts, bots)
+  >  Game development
+  >  Artificial Intelligence
+
+
+# Simple python program
+name  = "Abhijit"
+print("Hello,", name)
+
+-->Output
+
+Hello, Abhijit
