@@ -42,9 +42,21 @@
 
 #accept 5 string user and perform all 4 operations/methods on each string
 
-for i in range(5):
-    user_input = input(f"Enter string {i+1}: ")
+# for i in range(5):
+#     user_input = input(f"Enter string {i+1}: ")
+#     print(user_input.upper())
+#     print(user_input.lower())
+#     print(user_input.title())
+#     print(user_input.capitalize())
+
+#_______________________________________________________
+
+num = int(input("Enter number "))
+i=1
+while i<=num:
+    user_input = input("Enter the string :")
     print(user_input.upper())
-    print(user_input.lower())
+    print(user_input.lower())           
     print(user_input.title())
     print(user_input.capitalize())
+    i+=1 

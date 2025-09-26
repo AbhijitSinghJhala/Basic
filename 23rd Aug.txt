@@ -646,6 +646,10 @@ lower
 upper
 title
 capitalize
+find
+count
+replace
+
 
 
 access method
@@ -666,3 +670,169 @@ _______________________________________________________________________________
 Menu driven program
 armstrong
 number gussing - random
+
+______________________________________________________________________
+
+20-sep.---------->
+
+c_name = "Tops Technologies"
+T = 0
+o = 1
+p = 2
+s = 3
+ =  4
+T = 5
+e = 6
+c = 7
+h = 8
+n = 9
+
+sentence = "cat is animal and dog is animal"
+
+access method
+string variable.method
+
+
+str1 = "Tops"
+str2 = "12345"
+str3 = "Tops@123"
+str4 ="Tops tech"
+
+
+isdigit , isaplha , isalnum 
+
+print  
+
+
+
+String methods 
+
+	access string
+	string slicing
+	string indexing
+
+ Check email address is valid or not
+	input - "test@gmail.com"
+	output - test@gmail.com is valid email address
+
+	input - "test@gmail123"
+	output - test@gmail123 is invalid email address
+
+	indexing ? position 
+	T	0
+	o	1	
+	p	2
+
+	str[8] -- []--index no
+	-tive letters are from reverse 
+	
+	len- to find length of string
+	user input string access index 
+
+	string contains vowel or not
+	
+Lab task - print letters of string from reverse (thru index)
+	input - Abhijit
+	output - tijihbA
+
+	print(end="")
+
+	slicing --- part/portion 
+	str[1:4] (1,2,3)
+	str[1:10] (1,2,3,4,5,6,7,8,9)
+
+	str[start:end:step]
+
+
+______________________________________________________________________
+
+23-Sep-------->
+	
+	String --> Slicing 
+		indexing
+		access
+		in build methods
+		
+	Abhijit --> jitiAbhi
+	Ravi	--> viRa
+	
+
+Abhijit ---> tbhijiA
+Ravi ---> iavR
+Bharagvi  ---> iharagvB
+
+----------------------------------------------------------------------------
+
+25-sep------>
+
+Menu driven program
+armstrong
+number gussing - random
+
+25th Sep :
+ 
+ 1. Convert into Uppercase
+ 2. Convert into Lowercase
+ 3. Find length
+ 4. Replace 
+ 5. Exit
+Please enter your choice : 1
+Please enter string that you want otconvert in Uppercase
+qwert
+QWERT
+
+ 1. Convert into Uppercase
+ 2. Convert into Lowercase
+ 3. Find length
+ 4. Replace 
+ 5. Exit
+Please enter your choice : 3
+Please enter string 
+"qwerty tyu"
+Length of string is 10
+
+ 1. Convert into Uppercase
+ 2. Convert into Lowercase
+ 3. Find length
+ 4. Replace 
+ 5. Exit
+Please enter your choice : 5
+
+
+Lab task : 
+
+
+
+ 1. Reverse of Number
+ 2. Find no of digits
+ 3. Count total even/odd digits from number
+ 4. check number is palindrom 
+ 5. Exit
+Please enter your choice : 5
+
+RANDOM --- 
+
+Number gussing game ....
+
+randome_num = 23
+
+Guess number = 90
+
+
+Collection  (string,list,set,tuple,dictionary)
+
+string is ordered
+			
+
+
+
+List --- store set of values 
+---collection of items ,elements 
+     ordered 
+	 mutable / change
+
+string,int,float
+
+list in build methods 
+list indexing
+list slicing
