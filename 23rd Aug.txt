@@ -836,3 +836,126 @@ string,int,float
 list in build methods 
 list indexing
 list slicing
+
+______________________________________________________________________
+
+27th Sep---->
+
+
+	list methods  - insert , extends , pop
+
+copy - changes in orginal observ output to copied list 
+= - changes in orginal observ output to copied list 
+
+lst1 = ['ahmebabad','Baroda','baroda','surat','baroda']
+   each city count 
+
+append
+insert
+index
+clear
+copy
+count
+extend
+del 
+pop
+sort
+reverse
+
+_____________________________________________________________________
+
+30th Sep  --- 
+    list methods 
+	list indexing and slicing 
+
+
+--- > Convert names into upper case from list 
+--> Find length of each string from list
+--> Find largest string from list
+--->create valid email id list from exsting list e.g lst=['test@gmail.com','test.com','qwett@gmail.com','fdgdfggmail.com']
+    output --- valid_email_lst = ['test@gmail.com','qwett@gmail.com']
+
+-->lst_number second higest num lst=[11,23,32,9,23]
+23   ?
+sort index 
+not inbuilt 
+logic if-else
+-->find no of vowels in string from list 
+input ['test','testa','tst']
+output [1,2,0]
+
+Tuple ---
+
+list vs tuple
+immutable 
+performance 
+() a=(1,2,3)
+a = 1,2,3  --tuple 
+
+a = [1,2,3]
+t=tuple(a)
+t=(1,2,3)
+
+List comprehensive --- short form , consice way , more readable form 
+lst1 lst2 add 
+for i in lst1:
+	lst2.append(i)
+
+lst2=[i for i in lst1]
+print(lst2)
+
+_____________________________________________________________________
+3-oct------->
+
+List -- Ordered , muttable , dublicate 
+Tuple -- imutable ,orderd , dublicate , permance wise its better then list
+Set -- not allowed dublicate items  , special methods (intersection , union ,difrence 
+Dictionary  - ordered , key - paired , mutable , key is unquie 
+
+shallow copy / deep copy --- find diffrence 
+
+_____________________________________________________________________
+7th Oct ---->
+
+	Set - methods - intersection ,union ,diffrence ....
+			slicing 
+
+set_sub = {'Python','Java','SE'}
+		want to access last elements 
+print(set_sub[1:])
+set_sub[0]=Python
+[1]=java
+[2]=SE
+
+# -ve index
+
+min , max ,sum 
+Dictionary ---- word - meaning 
+				Good -  better,best 
+				map (location , address
+				Tops - near parimal , odd cg road
+
+				key and value paired 
+				key must be unique  , value may be dublicate 
+				{}
+				{key:value , key:value , key:value}
+
+				methods  - values , keys ,item ,setdefault ,  get
+						iterate 
+						1 --- >Ahemdabad
+						2---> Baroda
+						3 --->  
+				
+Lab task -->Practise dictionary 
+
+dict1 = {101 : ['Dhruv','Parimal',90,80,70],
+         102 : ['Romil','C G Road' , 90,80,77],
+         205 : ['Dhruti' , 'Bhanagar' , 90,83,71],
+         207 : ['Dharmishtha' , 'Parimal' , 92,67,72]
+         }
+
+output Find grade 
+ans= ('dhruv',240),('Roamil',247),(),()
+
+				slicing
+				indexing 

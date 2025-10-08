@@ -26,3 +26,24 @@
 
 ####______________________________________________________
 
+# print the last half string and other half
+str1 = input("Enter your name: ")
+length = len(str1)
+half = length // 2
+print(f"string: {str1[half:]}{str1[:half]}")
+
+####______________________________________________________
+
+#Example for join method
+word_list = ['This', 'is', 'Python']
+joined_string = ' '.join(word_list)
+print(f"list of words: {word_list}")
+print(f"joined string: {joined_string}")
+
+###______________________________________________________   
+
+# Example of strip method
+str1 = "   Tops Technologies   "
+print(f"original string: '{str1}'")
+print(f"string after strip: '{str1.strip()}'")
+

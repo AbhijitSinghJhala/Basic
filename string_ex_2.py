@@ -66,14 +66,58 @@
 
 ###______________________________________________________
 
-str = "This is Python class"
-print(str[-4])
-print(len(str))
+# str = "This is Python class"
+# print(str[-4])
+# print(len(str))
 
-name=input("Enter name ")
-for i in name:
-    print(i)
+# name=input("Enter name ")
+# for i in name:
+#     print(i)
 
-#accessing thru index
-for i in range(len(name)):
-    print(f"{i} ---> {name[i]}")
+# #accessing thru index
+# for i in range(len(name)):
+#     print(f"{i} ---> {name[i]}")
+
+###______________________________________________________
+
+# Accessing string through indexing with user input
+str1 = input("Enter string: ")
+for i in range(len(str1)):
+    print(f"character at negative index {-i} is {str1[i]}")
+
+###______________________________________________________
+
+# Accessing string through negative indexing with user input
+str1=input("Enter your name: ")
+for i in range(1, len(str1)+1):
+    print(f"character at negative index {-i} is {str1[-i]}")
+
+###______________________________________________________
+
+# check vowels in a string
+str1 = input("Enter your name: ")
+vowels = 0
+for i in range(len(str1)):
+    if str1[i].lower() in "aeiouAEIOU":
+        vowels += 1
+print(f"Number of vowels in '{str1}' is {vowels}")
+
+###______________________________________________________
+
+# String slicing
+str1 = "Tops Technologies"
+print(str1[0:4])  # Tops
+print(str1[5:])   # Technologies
+print(str1[:4])   # Tops
+print(str1[:])    # Tops Technologies
+print(str1[::2])  # Tp ehoois
+print(str1[::3])  # Tsenoe
+print(str1[1::2]) # osTcnlge
+
+##______________________________________________________
+
+#Ex of string slicing with user input
+str1 = input("Enter your name: ")
+length = len(str1)
+for i in range(length):
+    print(f"sliced string from index 0 to {i+1} is '{str1[0:i+1]}'")

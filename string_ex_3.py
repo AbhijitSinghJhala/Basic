@@ -61,3 +61,17 @@ if ans:
     print(f"{email} is valid email address")
 else:
     print(f"{email} is invalid email address")
+
+###______________________________________________________
+
+# # String_variable.method()
+
+# str1 = "Tops"
+# str2 = "12345"
+# str3 = "Tops@123"
+# str4 = " Tops tech "
+
+# print(str1.isalpha())    # True (only letters)
+# print(str2.isdigit())    # True (only numbers)
+# print(str3.isalnum())    # False (@ symbol not allowed)
+# print(str4.isalnum())    # false (space not allowed)
