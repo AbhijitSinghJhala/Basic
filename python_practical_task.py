@@ -60,23 +60,23 @@
 # #         sum_negative += i
 # # print((sum_positive, sum_negative))
 
-## 5) Write a program that takes a list of numbers and returns a tuple containing the sum and product of all the numbers.
-# - Input: `[1, 2, 3, 4]`
-# - Output: `(10, 24)`
-lst_numbers = [1, 2, 3, 4]
-sum = sum(i for i in lst_numbers)
-product = 1
-for i in lst_numbers:
-    product *= i
-print((sum, product))
-
+# ## 5) Write a program that takes a list of numbers and returns a tuple containing the sum and product of all the numbers.
+# # - Input: `[1, 2, 3, 4]`
+# # - Output: `(10, 24)`
 # lst_numbers = [1, 2, 3, 4]
-# sum = 0
+# sum = sum(i for i in lst_numbers)
 # product = 1
 # for i in lst_numbers:
-#     sum += i
 #     product *= i
 # print((sum, product))
+
+# # lst_numbers = [1, 2, 3, 4]
+# # sum = 0
+# # product = 1
+# # for i in lst_numbers:
+# #     sum += i
+# #     product *= i
+# # print((sum, product))
 
 
 
@@ -134,3 +134,62 @@ print((sum, product))
 # 3. Find Phone in Inventory
 # 4. Display Inventory
 # 5. Quit
+
+#________________________________________________________________
+
+
+# ## 1) "Count frequency of list items and write in into dictionary :input List1 = [1, 2, 2, 3, 4, 1, 4, 5, 5, 6, 7, 7]
+# List1 = [1, 2, 2, 3, 4, 1, 4, 5, 5, 6, 7, 7]
+# count_dict = {}
+# for item in List1:
+#     if item in count_dict:
+#         count_dict[item] += 1
+#     else:
+#         count_dict[item] = 1
+# print(count_dict)
+
+# ## 2) Accept a string from the user and print it in uppercase if the length of the string is greater than 5, else print it in lowercase using a function.
+# str = input("Enter a string: ")
+# def check_string(str):
+#     if len(str) > 5:
+#         return str.upper()
+#     else:
+#         return str.lower()
+# print(check_string(str))
+
+# ## 3) Write a function that accepts a string and returns the string in alternating uppercase and lowercase characters.
+# str = input("Enter a string: ")
+# def alternate_case(str):
+#     result = ""
+#     for i in range(len(str)):
+#         if i % 2 == 0:
+#             result += str[i].upper()
+#         else:
+#             result += str[i].lower()
+#     return result
+# print(alternate_case(str))
+
+# ## 4) Write a function that accepts a list of numbers and returns the average of the numbers, excluding any zero values
+# lst_numbers = [1, 2, 0, 4, 5]
+# def average_excluding_zeros(lst):
+#     non_zero_numbers = [num for num in lst if num != 0]
+#     if not non_zero_numbers:
+#         return 0
+#     return sum(non_zero_numbers) / len(non_zero_numbers)
+# print(average_excluding_zeros(lst_numbers))
+
+# ## 5) Write a function that accepts a string and returns True if the string is a valid email address (contains "@" and "."), otherwise False.
+# email = input("Enter an email address: ")
+# def is_valid_email(email):
+#     return "@" in email and "." in email
+# print(is_valid_email(email))
+
+## 6) Write a function that accepts a list of integers and returns the second largest number in the list.
+lst_numbers = [1, 2, 3, 4, 5]
+def second_largest(lst):
+    unique_numbers = list(set(lst))
+    if len(unique_numbers) < 2:
+        return None
+    unique_numbers.sort()
+    return unique_numbers[-2]
+print(second_largest(lst_numbers))

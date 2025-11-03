@@ -1,0 +1,37 @@
+car_data = 
+EV -->
+    Maruti 
+        Baleno - price , Model
+        sCross - price , Module
+    Hundai
+        i10 -   price , Model
+        creta - price , Model
+    KIA
+        seltos -   price , Model
+        sonate - price , Model
+Petrol -->
+    Maruti 
+        Baleno - price , Model
+        sCross - price , Module
+    Hundai
+        i10 -   price , Model
+        creta - price , Model
+    KIA
+        seltos -   price , Model
+        sonate - price , Model
+    TATA 
+        Alroz - price , Model
+        Punch - price , model
+
+Deisel -->
+    Maruti 
+        Baleno - price , Model
+        sCross - price , Module
+    Hundai
+        i10 -   price , Model
+        creta - price , Model
+    KIA
+        seltos -   price , Model
+        sonate - price , Model
+
+nested dictionary 

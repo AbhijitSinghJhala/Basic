@@ -958,4 +958,123 @@ output Find grade
 ans= ('dhruv',240),('Roamil',247),(),()
 
 				slicing
-				indexing 
+				indexing
+
+_________________________________________________________ 
+9th OCt---->
+
+1. What is variable & What is data type?
+2. Which are the conditional statements Explain .
+3. Which are loops ? Differentiate .
+4. what is membership operator explain with example.
+5. what is string slicing ?
+6. write a code to check whether the string is palidrome or not  
+7. add float numbers from list and list items were added from user
+
+dictionary --- 
+key- value
+methods  - values ,keys,items 
+
+access dictionary with key 
+add items in dictionary 
+
+
+
+Lab task -- filtering 
+Merge 2 dictionary 
+dict1 = {1:"qwqwqw" , 2:"sdfsdf"}
+dict2 = {4:"sdfdsfdsf",2:"sdfsdf"}
+
+ans = {1:"qwqwqw" , 4:"sdfdsfdsf",2:"sdfsdf"}
+
+_________________________________________________________
+11th oct --->
+
+		1. city_names ={'Ahemedabad' : "AHEMEDABAD" , "baroda" : "BARODA" , "surat" : "SURAT"}
+		2. city_names ={'Ahemedabad' : 9 , "baroda" : 6 , "surat" : 5}
+
+
+
+Lab task :		3.  city_names ={'Ahemedabad' : 5 , "baroda" : 3 , "surat" : 2}
+
+		
+sales 
+
+__________________________________________________________ 
+14th oct---->
+Dictionary --->  functions ,
+						filters
+						access ,
+						index
+				Dictionary comprehesive --> short form/readable form , code reduce
+
+				dict1 = {1:1 , 2:4 , 3:9 ,  4:16 , 5:25 }
+						key - 1-5
+						values - squares 
+
+Practise - comprehesive 
+
+_________________________________________________________
+
+28th Oct---->
+
+Functions and Module 
+---> functions are set of instruction to perform perticular task 
+	built in & user defined 
+    build in -- input(),print(),upper(),lower(),int(),list(),append()....
+	you can create your own function - user defined function
+
+	usign def keyword 
+   function declaration/definition
+	def function_name():
+		stmt
+		stmt
+		stmt
+//function call
+function_name()
+
+functions have parameter and return 
+
+return ? always return 
+
+user entering number and function return it's even/ODD
+Lab task : create function which accept a number and return "Prime" or "Not Prime"
+		   create function to check string is palidrome or not 
+
+			dharmishtha - Not palidrome
+			madam - palidrome
+
+-_________________________________________________________
+30th Oct --->
+
+ -  functions 
+ created function 
+call function
+Types of functions 
+ - Default argument 
+ - keyword argument
+ - variable argument 
+
+def greet(name="Romil"):
+   print("Good monring ",name)
+greet("Dhruv")
+
+o/p - Good Morning Dhruv
+
+greet()
+o/p Good Morning Romil
+
+greet("Vishvraj")
+o/p Good Morning Vishwaj
+
+sequence is important 
+
+keyword argments 
+
+variable 
+	*args - variable legnth 
+
+Lab Task  : fix parameter name and other details may be differ 
+
+
+**kwargs
