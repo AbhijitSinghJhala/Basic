@@ -17,7 +17,7 @@ print(addition(23,345,"anshu",567567,13123))
 # #     return sum(args)
 
 def addition(*args):
-    sum=0
+    sum=0 
     for i in args:
         if type(i)== int:
             sum+=i

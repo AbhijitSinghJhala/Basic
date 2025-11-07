@@ -1,18 +1,3 @@
-# Write a program to remove all items from a list that are less then 5 e.g [12,3,4,5,67,0] output [12,5,67]
-
-# Write a program to find common among 2 lists. eg. lst_numbers = [1,2,34,33,21] lst_numbers2=[11,2,33,45] output [2,33]
-
-# Write a program to sort a list of strings by their length e.g ['apple', 'banana', 'kiwi', 'orange'] output : ['kiwi', 'apple', 'orange', 'banana']
-
-# Write a program to accepts a list of integers and returns a tuple with the sum of all positive numbers and the sum of all negative numbers
-
-# Write a program that takes a list of numbers and returns a tuple containing the sum and product of all the numbers.
-# - Input: `[1, 2, 3, 4]`
-# - Output: `(10, 24)`
-
-###__________________________________________________
-
-
 # ## 1) Write a program to remove all items from a list that are less then 5 e.g [12,3,4,5,67,0] output [12,5,67]
 # lst_numbers = [12,3,4,5,67,0]
 # lst1 = [i for i in lst_numbers if i >= 5]

@@ -1078,3 +1078,45 @@ Lab Task  : fix parameter name and other details may be differ
 
 
 **kwargs
+_____________________________________________________________________
+
+4th Nov 
+
+Functions - > specific task 
+--> def function_name(parameter):
+         stmt
+         return 
+
+Types of functions 
+in-build and user defined function 
+
+def add(no1,no2):
+    return no1+no2
+
+Parameters/arguments 
+
+3 types 
+1. default ( age=20)
+2. keyword  (**kwrags - dict
+3. variable (*args)
+
+
+Module - python file ,collection of functions 
+
+create Module name NumberCheck.py
+3 methods 
+1. checkEven
+2. checkPostive
+3. checkPrime
+
+number is devided by 1 and iteself only 
+input = 33 - not Prime
+
+2 - 11 break 
+
+input = 31 - prime 
+2 -30 
+ _________________________________________________________
+ 
+ 6th Nov
+    Scope - boundry 
