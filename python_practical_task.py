@@ -210,94 +210,105 @@
 ###____________________________________________________________________________
 ## Function :
 
-# -  Write a function that accepts a list of numbers and returns the average of the numbers.
-list_numbers = [10, 20, 30, 40, 50]
-def cal_average(lst):
-    if len(lst) == 0:
-        return 0
-    return sum(lst) / len(lst)     
-print(cal_average(list_numbers))     
+# # -  Write a function that accepts a list of numbers and returns the average of the numbers.
+# list_numbers = [10, 20, 30, 40, 50]
+# def cal_average(lst):
+#     if len(lst) == 0:
+#         return 0
+#     return sum(lst) / len(lst)     
+# print(cal_average(list_numbers))     
 
-# - Accept a string from the user and print it in uppercase if the length of the string is greater than 5, else print it in lowercase using a function.
-def print_str(s):
-    if len(s) > 5:
-        print(s.upper())
-    else:
-        print(s.lower())
-print_str("abhijit singh")
+# # - Accept a string from the user and print it in uppercase if the length of the string is greater than 5, else print it in lowercase using a function.
+# def print_str(s):
+#     if len(s) > 5:
+#         print(s.upper())
+#     else:
+#         print(s.lower())
+# print_str("abhijit singh")
 
-# - Write a function that accepts a list of numbers and returns a new list with only the numbers that are divisible by 3.
-def filter_divisible_by_3(lst):
-    return [num for num in lst if num % 3 == 0]
-print(filter_divisible_by_3([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]))
+# # - Write a function that accepts a list of numbers and returns a new list with only the numbers that are divisible by 3.
+# lst=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# def filter_div(lst):
+#     return [num for num in lst if num % 3 == 0]
+# print(filter_div(lst))
 
 
-# - Write a function that accepts a list of numbers and returns a new list with the squares of all the numbers in the list.
-def square_numbers(lst):
-    return [num ** 2 for num in lst]
-print(square_numbers([1, 2, 3, 4, 5]))
+# # - Write a function that accepts a list of numbers and returns a new list with the squares of all the numbers in the list.
+# lst = [1, 2, 3, 4, 5]
+# def square_num(lst):
+#     return [num ** 2 for num in lst]
+# print(square_num(lst))
 
-# - Write a function that accepts a string and counts how many vowels are in the string.
-def count_vowels(s):
-    vowels = 'aeiouAEIOU'
-    return sum(1 for char in s if char in vowels)
-print(count_vowels("Hello World"))
+# # - Write a function that accepts a string and counts how many vowels are in the string.
+# name = "Hello World"
+# def count_vowels(s):
+#     vowels = 'aeiouAEIOU'
+#     return sum(1 for char in s if char in vowels)
+# print(count_vowels(name))
 
-# - Write a function that accepts a list of strings and returns the longest string in the list.
-def find_longest_string(lst):
-    if not lst:
-        return ""
-    longest = lst[0]
-    for s in lst[1:]:
-        if len(s) > len(longest):
-            longest = s
-    return longest
-print(find_longest_string(["apple", "banana", "cherry", "date"]))
+# # - Write a function that accepts a list of strings and returns the longest string in the list.
+# string=["apple", "banana", "cherry", "date"]
+# def longest_str(lst):
+#     if not lst:
+#         return ""
+#     longest = lst[0]
+#     for s in lst[1:]:
+#         if len(s) > len(longest):
+#             longest = s
+#     return longest
+# print(longest_str(string))
 
-# - Write a function that accepts a number and checks if it is an Armstrong number.
-def is_armstrong_number(num):
-    digits = [int(d) for d in str(num)]
-    power = len(digits)
-    return sum(d ** power for d in digits) == num
-print(is_armstrong_number(153))
+# # - Write a function that accepts a number and checks if it is an Armstrong number.
+# num=153
+# def is_armstrong_num(num):
+#     digits = [int(d) for d in str(num)]
+#     power = len(digits)
+#     return sum(d ** power for d in digits) == num
+# print(is_armstrong_num(num))
 
-# - Write a function that accepts a number and returns the sum of its digits.
-def sum_of_digits(num):
-    return sum(int(d) for d in str(num))
-print(sum_of_digits(12345))
+# # - Write a function that accepts a number and returns the sum of its digits.
+# num=12345
+# def sum_of_digits(num):
+#     return sum(int(d) for d in str(num))
+# print(sum_of_digits(num))
 
-# - Write a function that accepts a string and returns the string in alternating uppercase and lowercase characters.
-def alternate_case(s):
-    result = []
-    for i, char in enumerate(s):
-        if i % 2 == 0:
-            result.append(char.upper())
-        else:
-            result.append(char.lower())
-    return ''.join(result)
-print(alternate_case("hello world"))
+# # - Write a function that accepts a string and returns the string in alternating uppercase and lowercase characters.
+# str = "abhijit singh"
+# def alt_case(s):
+#     result = []
+#     for i, char in enumerate(s):
+#         if i % 2 == 0:
+#             result.append(char.upper())
+#         else:
+#             result.append(char.lower())
+#     return ''.join(result)
+# print(alt_case(str))
 
-# - Write a function that accepts a list of strings and returns a new list with only the strings that have an odd length.
-def filter_odd_length_strings(lst):
-    return [s for s in lst if len(s) % 2 == 1]
-print(filter_odd_length_strings(["apple", "banana", "cherry", "date"]))
+# # - Write a function that accepts a list of strings and returns a new list with only the strings that have an odd length.
+# string = ["apple", "banana", "cherry", "date"]
+# def odd_len(lst):
+#     return [s for s in lst if len(s) % 2 == 1]
+# print(odd_len(string))
 
-# - Write a function that accepts a string and a substring, and returns True if the substring is found in the string, otherwise False.
-def contains_substring(string, substring):
-    return substring in string
-print(contains_substring("Hello, world!", "world"))
+# # - Write a function that accepts a string and a substring, and returns True if the substring is found in the string, otherwise False.
+# string = ("Hello, world!", "world")
+# def contains_substring(string, substring):
+#     return substring in string
+# print(contains_substring(*string))
 
-# - Write a function that accepts a list of numbers and returns a new list with all the numbers that are divisible by both 2 and 3.
-def filter_divisible_by_2_and_3(lst):
-    return [num for num in lst if num % 2 == 0 and num % 3 == 0]
-print(filter_divisible_by_2_and_3([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]))
+# # - Write a function that accepts a list of numbers and returns a new list with all the numbers that are divisible by both 2 and 3.
+# list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# def div_by_2_and_3(lst):
+#     return [num for num in lst if num % 2 == 0 and num % 3 == 0]
+# print(div_by_2_and_3(list))
 
-# - Write a function that accepts a string and returns True if the string is a valid email address (contains "@" and "."), otherwise False.
-def is_valid_email(email):
-    return "@" in email and "." in email
-print(is_valid_email("test@example.com"))
+# # - Write a function that accepts a string and returns True if the string is a valid email address (contains "@" and "."), otherwise False.
+# def is_valid_email(email):
+#     return "@" in email and "." in email
+# print(is_valid_email("test@example.com"))
 
 # - Write a function that accepts a list of integers and returns the second largest number in the list.
+lst = [1, 2, 3, 4, 5]
 def find_second_largest(lst):
     if len(lst) < 2:
         return None
@@ -309,35 +320,40 @@ def find_second_largest(lst):
         elif num > second and num != first:
             second = num
     return second if second != float('-inf') else None
-print(find_second_largest([1, 2, 3, 4, 5]))
+print(find_second_largest(lst))
 
-# - Write a function that accepts a list of numbers and returns the average of the numbers, excluding any zero values
-def average_excluding_zeros(lst):
-    non_zero = [num for num in lst if num != 0]
-    return sum(non_zero) / len(non_zero) if non_zero else 0
-print(average_excluding_zeros([1, 2, 0, 4, 5]))
+# # - Write a function that accepts a list of numbers and returns the average of the numbers, excluding any zero values
+# lst = [1, 2, 0, 4, 5]
+# def average_excluding_zeros(lst):
+#     non_zero = [num for num in lst if num != 0]
+#     return sum(non_zero) / len(non_zero) if non_zero else 0
+# print(average_excluding_zeros(lst))
 
-# - Write a function that accepts two strings and returns the common characters between them
-def common_characters(str1, str2):
-    return set(str1) & set(str2)
-print(common_characters("apple", "banana"))
+# # - Write a function that accepts two strings and returns the common characters between them
+# string = ("apple", "banana")
+# def common_characters(str1, str2):
+#     return set(str1) & set(str2)
+# print(common_characters(*string))
 
 # - Write a function count_character(string, char) that accepts a string and a character, and returns the number of times the character appears in the string.
+name = ("Hello World", "o")
 def count_character(string, char):
     return string.count(char)
-print(count_character("Hello World", "o"))
+print(count_character(*name))
 
-# - Write a function concatenate_with_separator(lst, separator) that accepts a list of strings and a separator string, then returns a new string where all elements of the list are joined using the separator.
-def concatenate_with_separator(lst, separator):
-    return separator.join(lst)
-print(concatenate_with_separator(["apple", "banana", "cherry"], ", "))
+# # - Write a function concatenate_with_separator(lst, separator) that accepts a list of strings and a separator string, then returns a new string where all elements of the list are joined using the separator.
+# list_strings = (["apple", "banana", "cherry"], ", ")
+# def concatenate_with_separator(lst, separator):
+#     return separator.join(lst)
+# print(concatenate_with_separator(*list_strings))
 
 # - Write a function merge_dicts(dict1, dict2) that accepts two dictionaries and returns a single dictionary that contains the merged key-value pairs from both dictionaries.
+dicts = ({"a": 1, "b": 2}, {"b": 3, "c": 4})
 def merge_dicts(dict1, dict2):
     merged = dict1.copy()
     merged.update(dict2)
     return merged
-print(merge_dicts({"a": 1, "b": 2}, {"b": 3, "c": 4}))
+print(merge_dicts(*dicts))
 
 # - Write a function longest_word(sentence) that accepts a sentence and returns the longest word in the sentence.
 def longest_word(sentence):
@@ -354,11 +370,13 @@ def create_frequency_dict(lst):
 print(create_frequency_dict(["apple", "banana", "apple", "orange", "banana", "apple"]))
 
 # - Write a function merge_lists_into_dict(list1, list2) that accepts two lists of equal length and merges them into a dictionary where the keys are the indices (0 to n-1) and the values are the elements from both lists.
+strings = (["a", "b", "c"], [1, 2, 3])
 def merge_lists_into_dict(list1, list2):
     if len(list1) != len(list2):
         raise ValueError("Lists must be of equal length")
-    return {i: (list1[i], list2[i]) for i in range(len(list1))}
-print(merge_lists_into_dict(["a", "b", "c"], [1, 2, 3]))
+    # return {i: (list1[i], list2[i]) for i in range(len(list1))}
+    return {(list1[i], list2[i]) for i in range(len(list1))}
+print(merge_lists_into_dict(*strings))
 
 
 ###_______________________________________________________________________________________________

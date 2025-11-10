@@ -60,7 +60,7 @@
 # vowels = "aeiouAEIOU"
 # count = 0 
 # for i in range(len(str1)):
-#     if str1[i] in vowels:
+#     if str1[i] in s:
 #         count += 1
 # print("Vowels in a given string is :",count)  
 
