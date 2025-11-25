@@ -72,3 +72,4 @@ def cel_fah(i):
 list_ans = [0,23,22,7,11]
 lst = list(map(cel_fah,list_ans))
 print(lst)
+ 

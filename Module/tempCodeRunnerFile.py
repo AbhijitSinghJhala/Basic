@@ -1,1 +1,0 @@
-print(list(len_city))

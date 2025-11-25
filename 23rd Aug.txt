@@ -1120,3 +1120,242 @@ input = 31 - prime
  
  6th Nov
     Scope - boundry 
+
+_____________________________________________________________________
+8th Nov 
+   map() - maps function to each element of iterable
+eg map(square,lst_number)
+square function aplies to each element of lst_number
+
+Lab task : convert those city into upper case whose length is more then 5
+Lab task :  Convert temperatures from Celsius to Fahrenheit
+
+reduce , lambda function 
+
+11th Nov
+reduce 
+lambda - function with no name 
+- single expression
+-annonymus function
+-arguments may be more 
+
+Lab task : repalce with lambda
+__________________________________________________________________
+
+13th Nov
+
+File Handling
+- open 
+- read
+- write/append/update
+- close
+
+Type - txt , json -xml -dictionary 
+
+ tell
+seek
+ 
+
+_______________________________________________________________________________
+15th Nov--->
+
+read from file
+	read - all content 
+	readline - single line reading
+	readlines  - all content inform list each line is as element of list
+write
+    - open file into "w"
+    - if file is exist then it iwll overrrite otherwise it create new file
+	- 
+console and write into file 
+Lab task : 
+ - Data should be entered upto "END" and also inserted into file
+Input enter data : This is Satruday morning
+					THis is My bday
+					Will have dinner party at night
+					END
+
+	with keyword 
+
+Lab task : above program with writelins 
+
+Lab Task : read data from one file and copy it into another file
+
+Menu Driven Program ,with function 
+1. read
+2. write
+3. copyFile
+4. append
+5. Exit
+
+1. Please enter fileName that you want to read 'File.txt'
+	output content of 
+
+menu 
+
+json 
+
+__________________________________________________________________
+
+18th Nov
+
+	File reading/Writing 
+	json 
+
+Exception Handling 
+
+-	breaks execution due to unavoidable situation 
+- unexpeted error
+- runtime error
+	e.g File readign which doesn't exists
+	    incorrect input 
+	    access value from key and key doesn't exist
+        divide by 0
+
+ValueError
+ZeroDivisonError
+KeyError
+FileNotFoundError
+
+	Habdling 
+		try
+		except
+		raise
+		else
+		finally 
+
+single except block which handles all exception/errors
+
+you can have multiple except block 
+
+- except 
+
+-finally 
+     this block will excute always (whether error is thr or not)
+-else 
+     This will execute only when there is no error
+
+raise 
+   - custome exception 
+   - in build exception 
+
+OOPS - 
+_______________________________________________________________________________
+
+
+20th nov
+
+ - Exception Handling - 
+try 
+except 
+else
+finally 
+
+custom exception 
+ - you can create your own exception 
+
+Exception class built in 
+
+LenghtError - exception create 
+
+
+class LenghtError(Exception):
+	pass
+
+try:
+	stmt
+except lengthError
+
+OOPS - Programing Types
+Procedure - each are in procedure 
+OOP - each are iterms of object
+
+Java - oop
+python - oop
+C++ - hybrid
+
+Features ? 
+1. class   -> ?  Blueprint - template - structure - 
+				It is collection of objects 
+				It has data member and member functions 
+				state and behavoiur 
+				It is not actual entity 
+				Human is class 
+					data members - hands ,legs ,head , nose.......
+					functions - speaking,reading,eating ......
+
+				Employee is class
+						name , address ,salary .....
+						calcualteSalary , attendanceCalculation ....
+
+2. object 
+                1. is type of class
+				2. Real entity
+				3. instance of class
+				4. It have it's own data and memeber function 
+
+				Human azim
+				azim is object 
+				azim have data and functions 
+
+				Human dharmishtha
+				dharmishtha object
+
+__init__(self)  - constructor 
+		
+
+Lab Task : 
+
+Create Vehical data members (vehicalname ,model_name,price,color)
+                initlize with init method
+               and create method to display details of vehical 
+		scooter - scooter , Vespa-2020 , 80000 , Yellow
+	    car - Car , Hyundai , 220000, White
+
+2. Employee ename , address , salary ,department
+ create display() - which display details of employee
+
+
+
+3. inhertance
+4. Polymorphisum
+5. Encapsulation
+6. Abstraction
+
+
+
+Fetures 
+
+_________________________________________________________
+22nd_Nov---->
+
+Lab Task : Book add price, qty ,method calculatepricebook
+      - ceate list of books
+	  - create functions which accept authur and display those books
+
+
+Inheritance - > parent child 
+- one class can use property of another class
+- resuablity 
+- 'is a relationship'
+- Shooter is Vehical
+-Car is Vehical 
+-Employee is Person
+-Student is Person
+
+Inhertiance Types 
+- Single inheritance 
+- Multilevel Inhertiance ( A extends b , B extends C - GrandParent-Parent-Child)
+- Multiple Inheritaace ( Mother-Father-Child Child can use proeprty of Mother and Father)
+- Hierchical Parent -Child1 - Child2 
+- Hibdrid - Mixture of any 2
+
+--Polymorphisum 
+ - more then one form 
+ - Person can play different role at diffrent place e.g Abhiit is student here , Son at home , Friend ,Employee 
+ - Ability to take more then one form 
+
+2 types 
+1. Compile time - Method Overloading (same method name diffrent argument), Operator Overloading 12+20 ,12*23 , Num *Num1 
+2. Run time - Method overriding (same method name same argument)
+
